@@ -1,0 +1,98 @@
+/* Global Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* App Container */
+.app {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Input and Search Bar */
+.input-container, .search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.search-bar {
+  padding: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Task List */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+}
+
+/* Task Text and Tags */
+.task-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.task-tag {
+  margin-left: 8px;
+  color: #757575;
+  font-style: italic;
+}
+
+/* Smooth Animations */
+.task-item input, button {
+  transition: all 0.3s;
+}
