@@ -20,7 +20,7 @@ function App() {
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  // Function to toggle task completion
+  
   const toggleTaskCompletion = (id) => {
     setTasks(
       tasks.map((task) =>
