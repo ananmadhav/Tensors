@@ -1,4 +1,4 @@
-/* Global Styling */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* App Container */
+
 .app {
   max-width: 500px;
   margin: 50px auto;
@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
-/* Heading */
+
 h1 {
   color: #333;
   margin-bottom: 20px;
@@ -25,7 +25,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Input and Search Bar */
+
 .input-container, .search-bar {
   display: flex;
   gap: 10px;
@@ -44,7 +44,7 @@ input {
   padding: 10px;
 }
 
-/* Buttons */
+
 button {
   background-color: #4CAF50;
   color: white;
@@ -59,7 +59,7 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Task List */
+
 .task-list {
   list-style-type: none;
   padding: 0;
@@ -80,7 +80,7 @@ button:hover {
   transform: scale(1.02);
 }
 
-/* Task Text and Tags */
+
 .task-text {
   font-weight: 500;
   color: #333;
