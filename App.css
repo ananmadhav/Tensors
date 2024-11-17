@@ -1,11 +1,9 @@
-
 body {
   margin: 0;
   padding: 0;
   background-color: #f0f4f8;
   font-family: 'Poppins', sans-serif;
 }
-
 
 .app {
   max-width: 500px;
@@ -17,14 +15,12 @@ body {
   text-align: center;
 }
 
-
 h1 {
   color: #333;
   margin-bottom: 20px;
   font-size: 2rem;
   font-weight: bold;
 }
-
 
 .input-container, .search-bar {
   display: flex;
@@ -44,7 +40,6 @@ input {
   padding: 10px;
 }
 
-
 button {
   background-color: #4CAF50;
   color: white;
@@ -59,10 +54,10 @@ button:hover {
   background-color: #45a049;
 }
 
-
 .task-list {
   list-style-type: none;
   padding: 0;
+  padding-left: 40px;
 }
 
 .task-item {
@@ -74,25 +69,36 @@ button:hover {
   padding: 15px;
   border-radius: 10px;
   transition: transform 0.2s;
+  position: relative;
 }
 
 .task-item:hover {
   transform: scale(1.02);
 }
 
-
 .task-text {
   font-weight: 500;
   color: #333;
+  margin-left: 10px;
+  transition: color 0.3s, text-decoration 0.3s;
 }
 
-.task-tag {
-  margin-left: 8px;
-  color: #757575;
-  font-style: italic;
+.completed {
+  text-decoration: line-through;
+  color: gray;
 }
 
-/* Smooth Animations */
+.checkbox-container {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.delete-button {
+  margin-left: auto;
+}
+
 .task-item input, button {
   transition: all 0.3s;
 }
